@@ -3,8 +3,9 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: gray;
+header,
+footer {
+    background-color: #222;
     color: white;
     padding: 10px;
     text-align: center;
@@ -21,6 +22,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    border-bottom: 1px solid;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -28,9 +33,9 @@ img {
 }
 
 section {
-    margin: 30px;
+    margin: 20px;
     border: 1px solid rgb(0 0 0/10%);
-    padding: 15px;
+    padding: 10px;
     background-color: #ddd;
     font-size: .9rem;
 }
@@ -43,4 +48,6 @@ ul {
     margin-left: 5px;
 }
 
-footer {}
+footer {
+    font-size: .9rem;
+}
