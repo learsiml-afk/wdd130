@@ -44,7 +44,7 @@ article {
 }
 
 .hero {
-  position: absolute;
+  position: relative;
 }
 
 .hero img {
@@ -67,4 +67,13 @@ h1 {
 .hero article img {
   float: right;
   width: 125px;
+}
+
+article {
+  width: 100%;
+  margin: 10px;
+  padding: 5px;
+  background-color: var(--accent2-color);
+  color: #333;
+  text-align: center;
 }
