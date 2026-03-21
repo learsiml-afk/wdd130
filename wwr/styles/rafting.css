@@ -41,6 +41,8 @@ article {
 
 .socialmedia a {
   text-decoration: none;
+  width: 150;
+  height: auto;
 }
 
 .hero {
@@ -61,7 +63,6 @@ h1 {
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff;
 }
 
 .hero article img {
@@ -69,11 +70,12 @@ h1 {
   width: 125px;
 }
 
-article {
-  width: 100%;
-  margin: 10px;
-  padding: 5px;
-  background-color: var(--accent2-color);
-  color: #333;
-  text-align: center;
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  margin: 0;
+  background-color: rgba(119, 140, 67, 0.9);
 }
