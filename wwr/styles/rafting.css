@@ -77,5 +77,5 @@ h1 {
   transform: translateX(-50%);
   width: 80%;
   margin: 0;
-  background-color: rgba(119, 140, 67, 0.9);
+  background-color: var(--secondary-color)
 }
