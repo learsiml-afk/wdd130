@@ -1,4 +1,3 @@
-/* 1. VARIABLES & RESET */
 :root {
   --primary-color: #203500;
   --secondary-color: #dafeda;
@@ -149,4 +148,11 @@ footer {
 .socialmedia img {
   width: 30px;
   height: auto;
+}
+
+.history-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
 }
