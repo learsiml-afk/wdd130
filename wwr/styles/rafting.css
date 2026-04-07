@@ -158,14 +158,17 @@ footer {
   border-radius: 4px;
 }
 
-.company-name-title {
-  font-family: var(--heading-font);
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--accent2-color);
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.contact-header h1.company-name-title {
+  position: static !important;
+  /* This removes the "Absolute" floating behavior */
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  background-color: transparent;
+  opacity: 1;
+  margin: 20px 0;
+  width: 100%;
 }
 
 .contact-header {
