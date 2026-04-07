@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Black River Rafting</title>
+    <meta name="description"
+      content="Get in touch with Black River Rafting for reservations, general inquiries, or website feedback. Located in Kolob, California.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-crossedoars.jpeg" alt="WWR Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-header">
+            <p class="company-name-title">Black River Rafting</p>
+            <p>123 Main River Street, Kolob, California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <div class="contact-grid">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450"
+                  allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <form action="#" method="post">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Full Name">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email" placeholder="Email Address">
+                </div>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <label><input type="radio" name="purpose" value="general"> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="reservation"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <div class="form-item">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="user_message" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item checkbox">
+                    <input type="checkbox" id="newsletter" name="subscribe">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="profile-grid">
+                <figure>
+                    <img src="images/profile1.jpg" alt="Manager">
+                    <figcaption>Paco Ross - General Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile2.jpeg" alt="Guide">
+                    <figcaption>Eugenio Smith - Head Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile3.png" alt="Service">
+                    <figcaption>Dionisio McConkie - Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 | Black River Rafting | Israel Martinez</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
