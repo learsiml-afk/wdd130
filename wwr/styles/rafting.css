@@ -160,7 +160,6 @@ footer {
 
 .contact-header h1.company-name-title {
   position: static !important;
-  /* This removes the "Absolute" floating behavior */
   display: block;
   text-align: center;
   font-size: 2.5rem;
