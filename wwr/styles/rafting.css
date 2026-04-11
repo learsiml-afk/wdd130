@@ -88,6 +88,7 @@ h1 {
 }
 
 .hero article img {
+  float: right;
   width: 125px;
   margin-left: 15px;
   order: 2;
@@ -213,7 +214,7 @@ textarea {
 
 button {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--accent1-color);
   padding: 10px;
   border: none;
   cursor: pointer;
@@ -400,12 +401,6 @@ button {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   width: 100%;
-}
-
-.form-item {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
 }
 
 .newsletter-form button {
